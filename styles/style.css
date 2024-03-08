@@ -52,7 +52,8 @@ h1 {
   padding: 40px;
 }
 .item-content h2,
-.work-hero h2 {
+.work-hero h2,
+.contact-hero h2 {
   font-size: 64px;
   font-weight: 700;
   font-family: var(--secondary-font);
@@ -76,7 +77,8 @@ h1 {
 }
 
 .about-hero,
-.work-hero {
+.work-hero, 
+.contact-hero {
   margin-top: 100px;
 }
 .about-hero img,
@@ -98,7 +100,8 @@ h1 {
   line-height: 2;
 }
 
-.work-section h3 {
+.work-section h3,
+.contact-hero h3 {
   font-weight: 700;
   font-size: 24px;
   font-family: var(--main-font);
@@ -111,7 +114,10 @@ h1 {
   color: var(--font-color);
   opacity: 70%;
 }
-
+.contact-hero a {
+  font-size: 16px;
+font-family: var(--main-font);
+}
 @media (max-width: 820px) {
   h1,
   .about-hero h1 {
@@ -129,7 +135,6 @@ h1 {
   }
   .item-content {
     text-align: center;
-    
   }
   .about-hero img,
   .work-section img {
