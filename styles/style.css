@@ -103,7 +103,7 @@ h1 {
   font-weight: 400;
   opacity: 70%;
   line-height: 2;
-  }
+}
 
 .work-section h3 {
   font-weight: 700;
@@ -139,10 +139,10 @@ h1 {
     margin-bottom: 0;
   }
   .about-hero img,
-.work-section img {
-  width: auto;
-  height: auto;
-}
+  .work-section img {
+    width: auto;
+    height: auto;
+  }
   .about-hero {
     text-align: center;
     margin-bottom: 40px;
