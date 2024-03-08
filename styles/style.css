@@ -43,7 +43,6 @@ h1 {
   padding: 18px 30px;
   color: white;
   font-size: 18px;
-  margin-top: 36px;
 }
 .btn-branding:hover {
   border: 1px solid var(--secondary-color);
@@ -92,29 +91,19 @@ h1 {
   width: 560px;
   height: 560px;
 }
-.about-hero h1 {
-  font-size: 96px;
-  font-weight: 700;
-  font-family: var(--secondary-font);
-  margin-top: 24px;
-}
-.about-hero h2 {
+
+.about-hero h2,
+.about-hero p {
   font-size: 16px;
   font-family: var(--main-font);
   color: var(--font-color);
   font-weight: 700;
 }
 .about-hero p {
-  font-size: 16px;
-  font-family: var(--main-font);
-  color: var(--font-color);
+  font-weight: 400;
   opacity: 70%;
   line-height: 2;
-  padding: 36px 0;
-}
-.about-hero .btn-branding {
-  margin: 0 0 40px 0;
-}
+  }
 
 .work-section h3 {
   font-weight: 700;
@@ -149,6 +138,11 @@ h1 {
     text-align: center;
     margin-bottom: 0;
   }
+  .about-hero img,
+.work-section img {
+  width: auto;
+  height: auto;
+}
   .about-hero {
     text-align: center;
     margin-bottom: 40px;
