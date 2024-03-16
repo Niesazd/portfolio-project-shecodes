@@ -53,7 +53,8 @@ h1 {
 }
 .item-content h2,
 .work-hero h2,
-.contact-hero h2 {
+.contact-hero h2,
+.work-inquiry h3 {
   font-size: 64px;
   font-weight: 700;
   font-family: var(--secondary-font);
@@ -77,7 +78,7 @@ h1 {
 }
 
 .about-hero,
-.work-hero, 
+.work-hero,
 .contact-hero {
   margin-top: 100px;
 }
@@ -107,7 +108,8 @@ h1 {
   font-family: var(--main-font);
 }
 
-.work-section p {
+.work-section p,
+.work-inquiry p {
   font-weight: 400;
   font-size: 14px;
   font-family: var(--main-font);
@@ -116,7 +118,33 @@ h1 {
 }
 .contact-hero a {
   font-size: 16px;
-font-family: var(--main-font);
+  font-family: var(--main-font);
+}
+.work-inquiry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto;
+  background-color: var(--primary-color);
+  padding: 20px 40px;
+}
+.work-inquiry h3 {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+footer {
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+  font-family: var(--main-font);
+  color: #000;
+  font-weight: 500;
+  font-size: 20px;
+}
+.social-icons a {
+  margin: 24px;
+  color: var(--secondary-color);
 }
 @media (max-width: 820px) {
   h1,
@@ -147,5 +175,9 @@ font-family: var(--main-font);
   }
   .about-hero a {
     margin-bottom: 36px;
+  }
+  .work-inquiry {
+    display: block;
+    text-align: center;
   }
 }
