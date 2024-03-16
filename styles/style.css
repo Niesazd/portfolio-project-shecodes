@@ -109,7 +109,8 @@ h1 {
 }
 
 .work-section p,
-.work-inquiry p {
+.work-inquiry p,
+.coder {
   font-weight: 400;
   font-size: 14px;
   font-family: var(--main-font);
@@ -132,10 +133,8 @@ h1 {
   font-size: 48px;
   margin-bottom: 16px;
 }
-footer {
-  text-align: center;
-}
-footer a {
+
+footer .email-link {
   text-decoration: none;
   font-family: var(--main-font);
   color: #000;
@@ -146,6 +145,7 @@ footer a {
   margin: 24px;
   color: var(--secondary-color);
 }
+
 @media (max-width: 820px) {
   h1,
   .about-hero h1 {
